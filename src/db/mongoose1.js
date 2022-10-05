@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const mongoose = require("validator");
+const validator = require("validator");
 
 const User = mongoose.model("User", {
     name: {
